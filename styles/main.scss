@@ -31,6 +31,19 @@ $textDarkColor: #000000;
 }
 
 // style
+::-webkit-scrollbar {
+    width: vwSize(3);
+    height: vwSize(3);
+}
+::-webkit-scrollbar-track {
+    border-radius: vwSize(3);
+    background: #000;
+}
+::-webkit-scrollbar-thumb {
+    background: #00D54B;
+    border-radius: vwSize(3);
+}
+
 body {
 	margin: 0;
 }
@@ -41,7 +54,7 @@ ul, nav {
 	margin: 0;
 }
 
-h1 {
+h1, h2, p {
 	margin: 0;
 }
 
@@ -85,7 +98,7 @@ img {
 		@extend %jc-sb;
 		@extend %ai-c;
 	}
-	.logo {
+	.logoIcon {
 		width: vwSize(30);
 	}
 	&__menu {
@@ -106,6 +119,7 @@ img {
 	}
 	&__button {
 		width: vwSize(64);
+		cursor: pointer;
 	}
 	&__title {
 		position: relative;
@@ -215,5 +229,104 @@ img {
 	}
 	&__socialIcon {
 		width: vwSize(23);
+	}
+}
+
+.payments {
+	background: #F8F6F6;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	&__floor {
+		position: absolute;
+		right: 0;
+		left: 0;
+		bottom: 2.5%;
+		z-index: -1;
+	}
+	&__content {
+		position: relative;
+		width: vwSize(820);
+		margin: 0 auto;
+		transform: translateY(vwSize(150))
+	}
+	&__title {
+		color: $titleDarkColor;
+		font-size: vwSize(40);
+		font-weight: 800;
+	}
+	&__text {
+		color: $textDarkColor;
+		font-size: vwSize(16);
+		font-weight: 400;
+		line-height: vwSize(22);
+		width: vwSize(352);
+	}
+	&__phone {
+		position: absolute;
+	    top: -82%;
+    	right: 0%;
+		width: vwSize(750);
+	}
+	.pillar {
+		position: absolute;
+		&:nth-child(2) {
+			left: -47%;
+    		bottom: -20%;
+    		z-index: 10;
+		}
+		&:nth-child(3) {
+			left: 13%;
+    		bottom: 3%;
+    		z-index: 10;
+		}
+		&:nth-child(4) {
+		    left: 21%;
+    		bottom: 8%;
+    		z-index: 5;
+		}
+		&:nth-child(5) {
+			right: 47.2%;
+    		bottom: 4%;
+    		z-index: 15;
+		}
+		&:nth-child(6) {
+			right: 36%;
+    		bottom: -10%;
+    		z-index: 14;
+		}
+		&:nth-child(7) {
+		    right: 34.5%;
+    		bottom: 11%;
+    		z-index: 13;
+		}
+		&:nth-child(8) {
+		    right: 12%;
+    		bottom: -18%;
+    		z-index: 13;
+		}
+		&:nth-child(9) {
+			right: 12.8%;
+    		bottom: 24%;
+    		z-index: 10;
+		}
+		&:nth-child(10) {
+			right: -1%;
+			bottom: 7%;
+			z-index: 10;
+		}
+	}
+	.payments-column {
+		width: vwSize(810);
+	}
+	.payments-pillar-medium {
+		width: vwSize(172);
+	}
+	.payments-pillar-small {
+		width: vwSize(135);
+	}
+	.payments-pillar-large {
+		width: vwSize(210);
 	}
 }

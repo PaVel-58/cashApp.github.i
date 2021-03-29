@@ -14,9 +14,11 @@
 				<img src="images/svg/HeaderLine.svg" alt="line">
 			</div>
 			<div class="header__top">
-				<div class="logo">
-					<img src="images/svg/logo.svg" alt="logo">
-				</div>
+				<a href="#" class="logo">
+					<div class="logoIcon">
+						<img src="images/svg/logo.svg" alt="logo">
+					</div>
+				</a>
 				<nav class="header__menu">
 					<li class="header__menuItem"><a href="#">Sign In</a></li>
 					<li class="header__menuItem"><a href="#">Legal</a></li>
@@ -29,28 +31,42 @@
 					<li class="header__menuItem"><a href="#">Codeblog</a></li>
 				</nav>
 				<div class="header__button">
-					<img src="images/svg/eye button.svg" alt="eye">
+					<!-- <img src="images/svg/eye button.svg" alt="eye"> -->
+					<svg viewBox="0 0 65 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<g clip-path="url(#clip0)">
+							<path d="M62.6514 19.6448C62.1144 21.3159 61.0865 22.7369 58.8384 25.218L57.5061 26.6816C56.9922 27.25 56.7223 27.5768 56.4552 27.9378C55.3068 29.5037 50.6353 31.9422 46.9515 33.3007C45.7825 33.7118 44.5798 34.0217 43.3567 34.2271L41.5679 34.5398L36.974 35.3213C34.3669 35.7874 32.0068 35.7334 28.2655 35.2815L24.622 34.8211C24.2659 34.7813 24.019 34.7614 23.6716 34.733H23.5768C21.8283 34.5995 20.4845 34.1902 18.2651 33.2296L16.6486 32.5219C15.9681 32.2377 15.4024 32.0104 14.854 31.8342L14.5669 31.7489C11.8192 30.9247 6.10254 26.7384 4.34535 24.3312L4.13288 24.03C3.21409 22.6886 2.59965 21.7564 2.01392 19.838V19.0422L2.30104 18.1186C2.85806 16.5242 3.8314 15.1402 5.90156 12.8125L7.60994 10.9198C8.04636 10.4281 8.29042 10.1297 8.53447 9.78296C9.68296 8.21132 14.3545 5.7615 18.0354 4.40017C19.0828 4.02914 20.1593 3.74398 21.254 3.54757L22.2388 3.36284L28.01 2.38518C30.7262 1.89636 33.1782 1.97593 37.1979 2.4875L40.3333 2.88822C40.6893 2.92801 40.9363 2.9479 41.2837 2.97632H41.3784C43.0237 3.10137 44.3071 3.47368 46.3026 4.3206L48.3125 5.19594C48.9863 5.49276 49.6765 5.7518 50.3797 5.97181C53.1246 6.80168 58.8412 11.0022 60.5956 13.4179L60.7994 13.7277C61.7153 15.0748 62.1805 16.1604 62.7691 18.093L62.9557 18.7268L62.6514 19.6448Z" fill="white"/>
+							<path d="M23.5509 3.29504L24.1251 3.03073C26.6937 1.65889 29.5675 0.942984 32.4861 0.947531C34.624 0.947247 36.7442 1.33234 38.7425 2.08434L39.1101 2.17244C41.2979 2.65843 43.6093 4.82689 45.2114 6.15127C46.3427 7.08345 47.4223 8.94497 48.1716 10.4143C48.2635 10.5905 48.3554 10.7724 48.4415 10.9543C48.6339 11.3465 48.7947 11.6932 48.9182 11.9575C49.2173 12.6368 49.4465 13.3444 49.6015 14.0691C49.8482 15.0164 50.0144 15.9821 50.0982 16.9566C50.1634 17.4568 50.2274 17.9883 50.2906 18.551C50.6409 21.6943 48.8292 25.2638 48.3353 26.5229C47.8415 27.7819 45.5818 30.5273 45.2229 31.0331C44.864 31.539 41.0912 33.9803 40.7438 34.2872C40.3964 34.5942 37.0801 35.6543 36.5489 35.8049C36.0177 35.9555 31.7568 36.288 31.1481 36.288C30.5394 36.288 25.9139 34.8926 25.5119 34.6965C25.11 34.5004 22.5086 33.0851 21.9803 32.8264C21.452 32.5678 19.1665 30.226 18.8966 29.8963C18.6267 29.5667 16.2953 26.0738 16.0828 25.6333C15.8703 25.1928 15.2789 23.2261 15.0434 22.7174C14.808 22.2087 14.6673 18.9716 14.6673 17.8376C14.6799 16.7611 14.8531 15.6925 15.1812 14.666C15.4827 13.6712 15.8474 11.75 17.1279 9.66968C17.5934 8.93445 18.1105 8.23276 18.6755 7.56943C19.1329 7.00131 19.6248 6.46133 20.1485 5.95232C21.3027 4.77857 22.5373 3.74976 23.5509 3.29504Z" fill="#00D54B"/>
+							<path d="M41.2893 22.0406L41.1945 22.2509C41.0551 22.5733 40.897 22.8874 40.7208 23.1916C40.5657 23.4759 40.4337 23.7601 40.2872 24.0215C39.7733 25.0816 38.3693 26.0109 37.4907 26.6646C36.6121 27.3183 34.7659 27.7133 34.0194 27.8639C33.2728 28.0146 32.0956 27.9634 30.4188 27.7701C28.742 27.5769 27.0939 26.2241 26.4967 25.8234C25.8995 25.4226 24.7367 23.9448 24.5098 23.6975C24.283 23.4503 23.4733 21.2363 23.347 21.0317C23.2207 20.8271 23.0599 18.9968 23.0599 18.7069C23.0599 18.4171 23.3786 16.206 23.4504 15.8933C23.7083 15.3143 24.0037 14.7523 24.3347 14.2109C24.4065 14.0773 24.484 13.9437 24.5615 13.813L24.6391 13.6936C24.7912 13.4378 24.9089 13.2503 24.9491 13.202L25.0984 13.0314C25.3807 12.6586 25.6917 12.308 26.0287 11.9827C26.1723 11.8207 26.29 11.6985 26.3417 11.6218C26.6548 11.3556 26.9922 11.1187 27.3495 10.9141C28.2871 10.2901 29.3308 9.8386 30.4303 9.58123C30.5534 9.53557 30.679 9.49667 30.8064 9.46471C31.0649 9.41639 32.1559 9.33966 32.4488 9.28282C32.7901 9.27632 33.131 9.30778 33.4652 9.3766C33.8779 9.41442 34.2875 9.47994 34.6912 9.5727C36.1571 9.90345 37.5208 10.5791 38.6669 11.5423C39.8129 12.5055 40.7076 13.728 41.2749 15.1061C41.3926 15.3455 41.4887 15.5946 41.5621 15.8507C41.9809 17.201 42.0791 18.6288 41.8492 20.0228C41.8492 20.0768 41.8492 20.1336 41.8291 20.1876C41.7355 20.8268 41.5539 21.4503 41.2893 22.0406Z" fill="black"/>
+							<path d="M27.7342 10.6072C27.9997 10.7199 28.2473 10.8702 28.4692 11.0534L28.5554 11.1301C28.8261 11.3721 29.0499 11.6611 29.2157 11.9827C29.2996 12.124 29.3634 12.276 29.4052 12.4346V12.4999C29.5418 12.9761 29.5537 13.4788 29.4397 13.9607L29.4742 13.7732C29.4647 13.8517 29.4504 13.9295 29.4311 14.0062C29.3478 14.3348 29.209 14.6471 29.0205 14.9299C29.0098 14.9463 29.0003 14.9634 28.9918 14.981C28.831 15.3135 28.3888 15.6034 28.1132 15.8137C27.9652 15.9104 27.8036 15.9851 27.6337 16.0354C27.0732 16.2557 26.4581 16.3013 25.8708 16.1661L25.7846 16.1434L25.8851 16.1605C25.7177 16.1375 25.5549 16.0885 25.4028 16.0155C24.85 15.7899 24.3787 15.4046 24.0504 14.91C24.043 14.8986 24.0343 14.8882 24.0246 14.8787C24.0055 14.851 23.9891 14.8215 23.9758 14.7906C23.8353 14.5555 23.729 14.3019 23.6599 14.0375C23.6483 14.0083 23.6406 13.9777 23.6369 13.9465C23.5379 13.5153 23.5379 13.0676 23.6369 12.6364L23.6714 12.5028L23.6886 12.4204C23.7084 12.3887 23.7325 12.36 23.7604 12.3351C23.9304 11.8556 24.2228 11.4278 24.6092 11.0931C24.9956 10.7585 25.4628 10.5284 25.9655 10.4253L26.0373 10.4054L26.29 10.3798H26.3646C26.4479 10.3798 26.5197 10.3656 26.5541 10.3571C26.6824 10.3577 26.8103 10.371 26.936 10.3968C27.0328 10.4086 27.1287 10.4266 27.2231 10.4508H27.269L27.3552 10.4679C27.4742 10.4962 27.5897 10.5371 27.6997 10.5901L27.7342 10.6072Z" fill="white"/>
+							<path d="M0.50354 19.0422V19.4174C0.974421 21.2448 1.17828 22.2253 1.84153 23.1944C4.10693 26.511 6.13115 28.904 8.37645 30.2568L11.2965 31.9165L11.9884 32.2974C14.3141 33.5706 16.2206 34.4289 18.0726 34.9547C18.6596 35.1237 19.2571 35.2547 19.8614 35.3469L20.6366 35.4691L23.2752 35.9295C27.7658 36.7196 30.5969 36.9981 34.0596 36.7821C38.8746 36.478 43.0867 35.5629 48.2922 33.9401C51.8152 32.8459 57.4199 28.9722 60.0872 26.0421C61.0261 25.0104 61.7841 24.2516 62.3842 23.1262L62.769 22.4128C63.1307 21.6768 64.0323 19.9318 63.9864 20.0398C64.0984 19.784 64.1816 19.7783 64.2735 19.531L64.5003 19.0394L64.4171 18.7154C63.9433 16.8823 63.4035 15.5266 62.7403 14.5547C60.4777 11.2295 58.4535 8.82516 56.2111 7.46667L54.0089 6.2105C53.5121 5.9263 53.0298 5.6421 52.7139 5.4801L52.6048 5.42042C50.282 4.14435 48.3755 3.28038 46.5264 2.75461C45.934 2.58454 45.3306 2.45445 44.7204 2.36525L43.9452 2.2402L41.3094 1.7798C36.8332 0.986872 34.0021 0.705513 30.5423 0.924348C25.7301 1.22844 21.5209 2.14642 16.3154 3.76637C12.7953 4.86907 7.1935 8.75979 4.52326 11.7013C3.52888 12.7947 2.69652 14.0224 2.05113 15.3476L1.93628 15.5892C1.56302 16.402 0.965808 17.8855 0.945709 17.9395C0.833731 18.1896 0.730367 18.4482 0.635616 18.6955L0.50354 19.0422ZM62.4589 19.6447C61.922 21.3158 60.8941 22.7368 58.6459 25.2179L57.3136 26.6815C56.9425 27.083 56.5927 27.5032 56.2656 27.9406C55.1172 29.5065 50.4428 31.945 46.759 33.3035C45.5898 33.7136 44.3871 34.0236 43.1642 34.2299L41.3755 34.5397L36.7815 35.3241C34.1773 35.7902 31.8171 35.7362 28.0731 35.2843L24.4381 34.8239C24.0821 34.7813 23.838 34.7614 23.4906 34.733H23.393C21.6444 34.5994 20.3035 34.1873 18.0841 33.2267L16.4676 32.5191C15.7842 32.2349 15.2186 32.0103 14.6702 31.8341L14.3974 31.7489C11.6525 30.9218 5.93303 26.7355 4.17584 24.3284L3.96624 24.0442C3.04745 22.6999 2.43013 21.7705 1.8444 19.8493V19.0422L2.13153 18.1186C2.64835 16.5185 3.61882 15.1344 5.68898 12.8068L7.39736 10.9169C7.83378 10.4252 8.08071 10.124 8.32476 9.78007C9.47325 8.20844 14.1419 5.76146 17.8228 4.39729C18.8707 4.02757 19.9471 3.74244 21.0414 3.54469L22.0377 3.37417L27.8089 2.38514C30.528 1.89916 32.9771 1.97874 36.9968 2.48746L40.1552 2.88818C40.5112 2.92797 40.7553 2.95071 41.1027 2.97628H41.2003C42.8427 3.10418 44.129 3.47648 46.1245 4.3234L48.1343 5.19874C48.8078 5.49568 49.498 5.75379 50.2016 5.97177C52.9465 6.80164 58.6602 11.0021 60.4146 13.4207L60.627 13.722C61.5458 15.0691 62.011 16.1519 62.5967 18.0844L62.7833 18.7211L62.4589 19.6447Z" fill="black"/>
+						</g>
+						<defs>
+							<clipPath id="clip0">
+								<rect width="63.9968" height="36" fill="white" transform="translate(0.50354 0.852661)"/>
+							</clipPath>
+						</defs>
+					</svg>
 				</div>
 			</div>
 			<div class="header__content">
-				<div class="header__cube absolute translateOnMouseMove" data-animateSpeed="10">
+				<div class="header__cube absolute translateOnMouseMove header__back" data-animateSpeed="10">
 					<img src="images/svg/intro-cube.svg" alt="cube">
 				</div>
-				<div class="header__stairs absolute translateOnMouseMove" data-animateSpeed="30">
+				<div class="header__stairs absolute translateOnMouseMove header__back" data-animateSpeed="30">
 					<img src="images/svg/intro-stairs.svg" alt="stairs">
 				</div>
 				<div class="header__pillar absolute translateOnMouseMove" data-animateSpeed="200">
-					<img src="images/svg/intro-pillar.svg" alt="pillar">
+					<img src="images/svg/intro-pillar.svg" alt="pillar header__front">
 				</div>
-				<div class="header__cubes absolute translateOnMouseMove" data-animateSpeed="50">
+				<div class="header__cubes absolute translateOnMouseMove header__front" data-animateSpeed="50">
 					<img src="images/svg/intro-cubes.svg" alt="cubes">
 				</div>
 				<h1 class="header__title">
-					<div class="header__firstTitle translateOnMouseMove" data-animateSpeed="50">CASh</div>
-					<div class="header__phone translateOnMouseMove" data-animateSpeed="16">
+					<div class="header__firstTitle translateOnMouseMove header__back" data-animateSpeed="50">CASh</div>
+					<div class="header__phone translateOnMouseMove header__between" data-animateSpeed="16">
 						<img src="images/svg/intro-phone 1.svg" alt="PHONE">
 					</div>
-					<div class="header__secondTitle translateOnMouseMove" data-animateSpeed="20">APP</div>
+					<div class="header__secondTitle translateOnMouseMove header__front" data-animateSpeed="20">APP</div>
 				</h1>
 			</div>
 			<div class="header__bottomPart">
@@ -98,8 +114,60 @@
 				</div>
 			</div>
 		</header>
+		<section class="payments">
+			<div class="payments__floor">
+				<img src="images/svg/payments-floor.svg" alt="floor">
+			</div>
+			<div class="pillar payments-column payments__front">
+				<img src="images/svg/pillars/payments-column.svg" alt="payments-column">
+			</div>
+			<div class="pillar payments-pillar-medium payments__between">
+				<img src="images/svg/pillars/payments-pillar-medium.svg" alt="payments-column">
+			</div>
+			<div class="pillar payments-pillar-small payments__between">
+				<img src="images/svg/pillars/payments-pillar-small.svg" alt="payments-column">
+			</div>
+			<div class="pillar payments-pillar-medium payments__between">
+				<img src="images/svg/pillars/payments-pillar-medium.svg" alt="payments-column">
+			</div>
+			<div class="pillar payments-pillar-medium payments__front">
+				<img src="images/svg/pillars/payments-pillar-medium.svg" alt="payments-column">
+			</div>
+			<div class="pillar payments-pillar-large payments__back">
+				<img src="images/svg/pillars/payments-pillar-large.svg" alt="payments-column payments__front">
+			</div>
+			<div class="pillar payments-column payments__front">
+				<img src="images/svg/pillars/payments-column.svg" alt="payments-column">
+			</div>
+			<div class="pillar payments-pillar-medium payments__back">
+				<img src="images/svg/pillars/payments-pillar-medium.svg" alt="payments-column">
+			</div>
+			<div class="pillar payments-column payments__between">
+				<img src="images/svg/pillars/payments-column.svg" alt="payments-column">
+			</div>
+			<div class="payments__content">
+				<h2 class="payments__title">
+					Payments
+				</h2>
+				<p class="payments__text">
+					Send and receive money with anyone, donate  to an important cause, or tip professionals. 
+					Just enter a $cashtag, phone number, or 
+					scan their  QR code to pay.
+				</p>
+				<div class="payments__phone">
+					<img src="images/svg/payments-phone.svg" alt="phone image">
+				</div>	
+			</div>
+		</section>
+		<section>
+			<p style="font-size: 16px">
+				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi impedit ab ipsum dolore consequatur laudantium, quibusdam magni, omnis hic eveniet, nesciunt excepturi. Eaque blanditiis inventore atque explicabo nobis mollitia dicta animi sit voluptate. Doloremque temporibus quia modi expedita, fugit optio nesciunt inventore architecto dolores et voluptatibus sapiente cumque consectetur veritatis provident ratione? Quasi incidunt eligendi nostrum sit doloribus eum reprehenderit fuga ea omnis cumque quaerat, perspiciatis accusantium et cum. Earum at ad nobis quia voluptates. Exercitationem blanditiis ipsam et obcaecati voluptatem dolor, perspiciatis totam, impedit ad, laborum sequi praesentium, soluta maxime aliquid? Doloribus molestias exercitationem delectus molestiae? Eius qui distinctio iure molestias perferendis impedit, quis saepe quisquam accusantium adipisci repellendus quaerat. Nobis quisquam maiores doloremque placeat praesentium nulla minus commodi, eius ipsum natus cumque impedit nihil illo rem iste sit, enim quos facere reprehenderit? Minima molestiae ex tempore odio, nulla iure incidunt? Veniam, sit cum possimus ab provident, excepturi nam vel dolorem dicta adipisci maiores dolorum eius quidem? Provident minus, quod. Cum esse dolorum tempora deleniti ex earum, quisquam iusto tempore sequi velit, eaque molestiae. Error, accusamus tempora vero iste, numquam odit voluptas, veritatis inventore cupiditate corporis pariatur praesentium dignissimos similique nesciunt, possimus alias quidem nostrum velit maxime placeat repellat. Magni repellat sequi atque, ipsum iusto facere consequuntur dolorum recusandae officiis, reiciendis fugiat minus quis distinctio asperiores, quos consectetur quidem. Voluptatem, voluptates nesciunt cupiditate blanditiis quaerat non quis ab eius dolore sunt ipsam! Laboriosam, assumenda? Impedit, numquam ratione possimus harum. Sequi unde, numquam at, modi in impedit pariatur possimus, ex quae nihil porro. Tempore neque repellat quas ratione alias dicta. Accusantium error quibusdam, molestiae iste blanditiis, magni delectus veritatis, aliquid non maiores, provident? Optio tenetur blanditiis officiis a quis quae, vero repellendus? Cum architecto perferendis maxime, quasi nemo, provident possimus sequi natus error vel voluptates repudiandae aut dolorum quo totam, id nobis reprehenderit cupiditate odit! Animi, in veritatis at. Distinctio cupiditate suscipit iusto eius eveniet cum iure voluptas fuga repudiandae voluptatem atque enim quibusdam quod odit, magnam obcaecati minus harum, cumque magni debitis non! Modi hic perferendis laboriosam minus dicta quam velit consequuntur, repellendus voluptas nesciunt maiores iusto ratione aliquam doloribus, id ullam, reprehenderit unde. Recusandae incidunt iure nihil, culpa ad eveniet, alias, similique impedit, excepturi obcaecati doloribus possimus consequatur quibusdam cupiditate necessitatibus. Reiciendis voluptas dolorum voluptatem reprehenderit. Quam doloribus provident praesentium, molestiae harum eum, ipsum, veritatis qui error sequi fugit? Assumenda unde, mollitia iste esse deleniti vero eos et dolorem beatae placeat cum molestiae, maiores ipsam itaque inventore ea quos, quas perferendis iusto? Aliquid error ab in, dolorem debitis consequuntur pariatur reprehenderit recusandae blanditiis cumque harum accusantium, praesentium sequi magni aperiam! Porro amet modi debitis, temporibus veritatis perspiciatis voluptate repudiandae aliquam quas perferendis aut eius odit fugit et, inventore consectetur beatae dignissimos, asperiores labore? Blanditiis ratione repudiandae molestias rem autem numquam iure delectus ab error ullam expedita, at eveniet facilis dicta ducimus, nesciunt corrupti. Amet delectus esse, quidem iusto cupiditate ullam sapiente a corporis facere, soluta excepturi porro similique culpa est error veniam ex sed saepe reprehenderit. Tempore perferendis incidunt totam maiores inventore suscipit, autem, sequi eos blanditiis nostrum, nam excepturi fugit laborum, possimus quaerat tempora voluptatum eum quia. Illum esse numquam temporibus cupiditate praesentium fugit sed aspernatur iusto recusandae non necessitatibus similique suscipit quae ipsum obcaecati, officia cumque sint animi, ut minus at ex eius, quos? Modi, explicabo accusamus ipsum inventore, facere impedit perspiciatis rerum dolorem molestiae tenetur sed harum ab magnam, maxime minima totam aspernatur vel iste perferendis ex nostrum pariatur. Voluptas voluptatibus sit repellendus dolore optio minus ullam voluptatem, dolorem id asperiores suscipit ipsum facere, tempore impedit perspiciatis quia reprehenderit alias nihil at officia, sint deleniti vitae delectus! Quae placeat, quos accusamus dicta. Aperiam repellendus, similique! Iure autem maiores nobis error non officia repellat fugiat ad ducimus, quisquam ipsam expedita, dolores necessitatibus facilis consequatur ex minima mollitia nulla doloribus voluptate architecto? Commodi suscipit nesciunt officiis vel assumenda doloribus labore natus quae, similique deleniti aliquid, maiores nihil consequuntur obcaecati recusandae debitis, voluptatem vero, neque eum. Saepe molestias ex voluptatem voluptates inventore aliquid odio accusantium libero deleniti reprehenderit nostrum soluta eos quisquam, impedit ipsa laudantium aut cumque, facilis nisi ipsam optio exercitationem suscipit! Repudiandae, in facilis eum, aut pariatur illum quisquam, perspiciatis porro dolor, sequi aliquam. Error, saepe harum incidunt, hic quasi maxime, sint voluptatibus quo quis ipsum quisquam aliquid nostrum sit odit vel illo doloremque voluptate velit debitis. Architecto, aspernatur, esse omnis magni eos et impedit, soluta beatae pariatur inventore officiis, dicta ullam? Odio, voluptatum, libero. Ab, cupiditate consequatur laborum laboriosam placeat et iste soluta recusandae. Culpa ratione optio provident quidem voluptates voluptatibus a perspiciatis facilis ipsa doloremque fugiat dolorum nulla repudiandae, laborum, et iste ea sunt veniam laudantium officiis quod, debitis natus, corrupti maxime beatae. Unde, sequi. Laborum voluptatem rem ad tempora expedita omnis accusantium minus cupiditate tenetur inventore eius deserunt, incidunt delectus, quia placeat! Architecto dignissimos fugiat vitae quas officia perferendis quo eaque corrupti officiis ab aut dicta necessitatibus, labore similique, tempora exercitationem, quaerat totam ipsum culpa delectus ex odio, illo. Nobis, iste. Dolor, perspiciatis dolore rerum, excepturi voluptatibus illo maxime impedit tempora necessitatibus nesciunt, nihil est blanditiis nobis vel, aperiam quis quae harum iste autem recusandae ex. Dignissimos aperiam harum laborum, nisi animi odio deserunt, laudantium. Expedita, porro molestias cumque unde temporibus, repellat. Deleniti aliquam aliquid facere asperiores exercitationem odit eveniet dolor explicabo at sunt perspiciatis deserunt sequi eligendi ratione perferendis qui, corrupti ea nemo ipsum consequuntur pariatur voluptatibus. Incidunt minima assumenda earum accusantium eaque numquam vitae error reiciendis officiis repudiandae. Sed nesciunt maxime rerum. Eaque temporibus, numquam facere reprehenderit iure blanditiis magni earum minima quo ea doloremque deserunt animi similique dicta minus corporis molestiae fugit, distinctio, cum perferendis, optio soluta vitae fugiat. Earum, adipisci voluptatibus corrupti minus voluptates culpa maiores tenetur, ipsum, laborum necessitatibus deserunt veritatis veniam voluptatem nihil totam, distinctio magni praesentium corporis nemo harum! Dignissimos cupiditate explicabo odio voluptatum voluptatibus perspiciatis minus pariatur? Facilis, nihil accusantium tempore veniam dolorum animi alias ducimus eius iste illo possimus esse autem repudiandae ut placeat omnis ipsum eaque mollitia libero similique recusandae sit cupiditate odio.
+			</p>
+		</section>
 	</div>
 	<script src="scripts/jquery.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js" integrity="sha512-wK2NuxEyN/6s53M8G7c6cRUXvkeV8Uh5duYS06pAdLq4ukc72errSIyyGQGYtzWEzvVGzGSWg8l79e0VkTJYPw==" crossorigin="anonymous"></script>
 	<script src="scripts/main.js"></script>
 </body>
 </html>

@@ -8,6 +8,18 @@
 .header__top, .header__bottomPart {
   align-items: center; }
 
+::-webkit-scrollbar {
+  width: 0.21962vw;
+  height: 0.21962vw; }
+
+::-webkit-scrollbar-track {
+  border-radius: 0.21962vw;
+  background: #000; }
+
+::-webkit-scrollbar-thumb {
+  background: #00D54B;
+  border-radius: 0.21962vw; }
+
 body {
   margin: 0; }
 
@@ -16,7 +28,7 @@ ul, nav {
   list-style: none;
   margin: 0; }
 
-h1 {
+h1, h2, p {
   margin: 0; }
 
 a {
@@ -49,7 +61,7 @@ img {
     right: 0;
     bottom: 0;
     z-index: -1; }
-  .header .logo {
+  .header .logoIcon {
     width: 2.19619vw; }
   .header__menu {
     width: 56.07613vw;
@@ -64,7 +76,8 @@ img {
     .header__menuItem:last-child {
       margin-right: 0; }
   .header__button {
-    width: 4.68521vw; }
+    width: 4.68521vw;
+    cursor: pointer; }
   .header__title {
     position: relative;
     z-index: 1;
@@ -152,3 +165,82 @@ img {
       margin-right: 0; }
   .header__socialIcon {
     width: 1.68375vw; }
+
+.payments {
+  background: #F8F6F6;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  z-index: 1; }
+  .payments__floor {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 2.5%;
+    z-index: -1; }
+  .payments__content {
+    position: relative;
+    width: 60.02928vw;
+    margin: 0 auto;
+    transform: translateY(10.98097vw); }
+  .payments__title {
+    color: #00D54B;
+    font-size: 2.92826vw;
+    font-weight: 800; }
+  .payments__text {
+    color: #000000;
+    font-size: 1.1713vw;
+    font-weight: 400;
+    line-height: 1.61054vw;
+    width: 25.76867vw; }
+  .payments__phone {
+    position: absolute;
+    top: -82%;
+    right: 0%;
+    width: 54.90483vw; }
+  .payments .pillar {
+    position: absolute; }
+    .payments .pillar:nth-child(2) {
+      left: -47%;
+      bottom: -20%;
+      z-index: 10; }
+    .payments .pillar:nth-child(3) {
+      left: 13%;
+      bottom: 3%;
+      z-index: 10; }
+    .payments .pillar:nth-child(4) {
+      left: 21%;
+      bottom: 8%;
+      z-index: 5; }
+    .payments .pillar:nth-child(5) {
+      right: 47.2%;
+      bottom: 4%;
+      z-index: 15; }
+    .payments .pillar:nth-child(6) {
+      right: 36%;
+      bottom: -10%;
+      z-index: 14; }
+    .payments .pillar:nth-child(7) {
+      right: 34.5%;
+      bottom: 11%;
+      z-index: 13; }
+    .payments .pillar:nth-child(8) {
+      right: 12%;
+      bottom: -18%;
+      z-index: 13; }
+    .payments .pillar:nth-child(9) {
+      right: 12.8%;
+      bottom: 24%;
+      z-index: 10; }
+    .payments .pillar:nth-child(10) {
+      right: -1%;
+      bottom: 7%;
+      z-index: 10; }
+  .payments .payments-column {
+    width: 59.29722vw; }
+  .payments .payments-pillar-medium {
+    width: 12.59151vw; }
+  .payments .payments-pillar-small {
+    width: 9.88287vw; }
+  .payments .payments-pillar-large {
+    width: 15.37335vw; }
