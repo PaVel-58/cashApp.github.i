@@ -244,3 +244,100 @@ img {
     width: 9.88287vw; }
   .payments .payments-pillar-large {
     width: 15.37335vw; }
+
+.banking {
+  background: #00D54B;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  z-index: 1; }
+  .banking__content {
+    position: relative;
+    z-index: 1;
+    width: 67.0571vw;
+    margin: 0 auto;
+    transform: translateY(21.66911vw); }
+  .banking__title {
+    color: #fff;
+    font-size: 2.92826vw;
+    font-weight: 800; }
+  .banking__text {
+    color: #000000;
+    font-size: 1.1713vw;
+    font-weight: 400;
+    line-height: 1.61054vw;
+    width: 25.76867vw; }
+  .banking__phone {
+    position: absolute;
+    top: -82%;
+    right: 40%;
+    width: 54.90483vw; }
+  .banking__phone {
+    z-index: 10;
+    width: 25.62225vw;
+    position: absolute;
+    top: -114%;
+    right: 31%; }
+  .banking__images {
+    position: absolute;
+    z-index: 9; }
+    .banking__images:nth-child(1) {
+      top: 0vw;
+      left: -4.39239vw;
+      width: 27.81845vw;
+      z-index: 10; }
+    .banking__images:nth-child(2) {
+      top: 7.68668vw;
+      left: 5.41728vw;
+      width: 9.51684vw;
+      z-index: 10; }
+    .banking__images:nth-child(3) {
+      left: 5.41728vw;
+      bottom: 8.27233vw;
+      width: 5.85652vw;
+      z-index: 10; }
+    .banking__images:nth-child(4) {
+      left: 11.49341vw;
+      bottom: 3.29429vw;
+      width: 21.96193vw;
+      z-index: 5; }
+    .banking__images:nth-child(5) {
+      top: 12.07906vw;
+      left: 25.91508vw;
+      width: 19.76574vw;
+      z-index: -1; }
+    .banking__images:nth-child(6) {
+      left: 35.79795vw;
+      bottom: -0.73206vw;
+      width: 10.98097vw;
+      z-index: 14; }
+    .banking__images:nth-child(7) {
+      right: 18.88726vw;
+      bottom: -5.41728vw;
+      width: 27.81845vw;
+      z-index: 13; }
+    .banking__images:nth-child(8) {
+      right: 19.98536vw;
+      bottom: 6.8082vw;
+      width: 17.56955vw;
+      z-index: 13; }
+    .banking__images:nth-child(9) {
+      top: 15.59297vw;
+      right: 21.74231vw;
+      width: 20.4978vw;
+      z-index: 10; }
+    .banking__images:nth-child(10) {
+      top: 1.1713vw;
+      right: 12.95754vw;
+      width: 18.30161vw;
+      z-index: 10; }
+    .banking__images:nth-child(11) {
+      right: 9.00439vw;
+      bottom: 16.10542vw;
+      width: 6.58858vw;
+      z-index: 10; }
+    .banking__images:nth-child(12) {
+      right: 5.41728vw;
+      bottom: 5.41728vw;
+      width: 8.78477vw;
+      z-index: 10; }

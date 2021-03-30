@@ -330,3 +330,119 @@ img {
 		width: vwSize(210);
 	}
 }
+
+.banking {
+	background: #00D54B;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	&__content {
+		position: relative;
+		z-index: 1;
+		width: vwSize(916);
+		margin: 0 auto;
+		transform: translateY(vwSize(296))
+	}
+	&__title {
+		color: $titleLightColor;
+		font-size: vwSize(40);
+		font-weight: 800;
+	}
+	&__text {
+		color: $textDarkColor;
+		font-size: vwSize(16);
+		font-weight: 400;
+		line-height: vwSize(22);
+		width: vwSize(352);
+	}
+	&__phone {
+		position: absolute;
+	    top: -82%;
+    	right: 40%;
+		width: vwSize(750);
+	}
+	&__phone {
+		z-index: 10;
+		width: vwSize(350);
+		position: absolute;
+		top: -114%;
+    	right: 31%;
+	}
+	&__images {
+		position: absolute;
+		z-index: 9;
+		&:nth-child(1) {
+    		top: vwSize(0);
+			left: vwSize(-60);
+			width: vwSize(380);
+    		z-index: 10;
+		}
+		&:nth-child(2) {
+    		top: vwSize(105);
+			left: vwSize(74);
+			width: vwSize(130);
+    		z-index: 10;
+		}
+		&:nth-child(3) {
+			left: vwSize(74);
+    		bottom: vwSize(113);
+			width: vwSize(80);
+    		z-index: 10;
+		}
+		&:nth-child(4) {
+		    left: vwSize(157);
+    		bottom: vwSize(45);
+			width: vwSize(300);
+    		z-index: 5;
+		}
+		&:nth-child(5) {
+			top: vwSize(165);
+			left: vwSize(354);
+			width: vwSize(270);
+    		z-index: -1;
+		}
+		&:nth-child(6) {
+			left: vwSize(489);
+    		bottom: vwSize(-10);
+			width: vwSize(150);
+    		z-index: 14;
+		}
+		&:nth-child(7) {
+		    right: vwSize(258);
+    		bottom: vwSize(-74);
+			width: vwSize(380);
+    		z-index: 13;
+		}
+		&:nth-child(8) {
+		    right: vwSize(273);
+    		bottom: vwSize(93);
+			width: vwSize(240);
+    		z-index: 13;
+		}
+		&:nth-child(9) {
+    		top: vwSize(213);
+			right: vwSize(297);
+			width: vwSize(280);
+    		z-index: 10;
+		}
+		&:nth-child(10) {
+			top: vwSize(16);
+			right: vwSize(177);
+			width: vwSize(250);
+			z-index: 10;
+		}
+		&:nth-child(11) {
+			right: vwSize(123);
+    		bottom: vwSize(220);
+			width: vwSize(90);
+    		z-index: 10;
+		}
+		&:nth-child(12) {
+			right: vwSize(74);
+			bottom: vwSize(74);
+			width: vwSize(120);
+			z-index: 10;
+		}
+	}
+}
